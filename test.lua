@@ -10,7 +10,7 @@ local dkjson = require("dkjson")
 -- 创建 Lua 表
 local data = {
     name = "John",
-    age = 30000,
+    age = 50000,
     city = "New York"
 }
 
