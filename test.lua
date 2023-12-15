@@ -24,7 +24,7 @@ local formattedStringlength = string.format("JSON String length :%d", string.len
 printData(formattedStringlength)
 
 local cphlibs = require("my")
-local result = cphlibs.add_numbers(formattedString, string.len(formattedString))
+local result = cphlibs.add_numbers(json_string)
 --print("Result:", result)
 
 ---- 解析 JSON 字符串为 Lua 表
